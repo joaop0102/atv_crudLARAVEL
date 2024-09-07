@@ -110,7 +110,7 @@
 
 <div class="container">
     <h1>Posts</h1>
-    <a href="{{ route('posts.create') }}" class="btn btn-primary">Create Post</a>
+    <a href="{{ route('posts.create') }}" class="btn btn-primary">Criar Post</a>
     <table class="table">
         <thead>
             <tr>
