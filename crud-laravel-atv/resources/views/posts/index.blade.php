@@ -115,8 +115,8 @@
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Title</th>
-                <th>Actions</th>
+                <th>Título</th>
+                <th>Ações</th>
             </tr>
         </thead>
         <tbody>
