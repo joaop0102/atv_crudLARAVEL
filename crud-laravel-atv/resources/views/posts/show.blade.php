@@ -46,7 +46,7 @@
 </style>
 
 <div class="container">
-    <h1>Post Details</h1>
+    <h1>Detalhes do post</h1>
     @if($post)
     <p><strong>Title:</strong> {{ $post->title }}</p>
     <p><strong>Body:</strong> {{ $post->body }}</p>

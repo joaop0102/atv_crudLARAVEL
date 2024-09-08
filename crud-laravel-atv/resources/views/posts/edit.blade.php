@@ -63,17 +63,17 @@
 </style>
 
 <div class="container">
-    <h1>Edit Post</h1>
+    <h1>Editar Post</h1>
     @if($post)
     <form action="{{ route('posts.update', $post->id) }}" method="POST">
         @csrf
         @method('PUT')
         <div class="form-group">
-            <label for="title">Title</label>
+            <label for="title">Título</label>
             <input type="text" class="form-control" id="title" name="title" value="{{ $post->title }}" required>
         </div>
         <div class="form-group">
-            <label for="body">Body</label>
+            <label for="body">Campo de texto</label>
             <textarea class="form-control" id="body" name="body" rows="5" required>{{ $post->body }}</textarea>
         </div>
         <button type="submit" class="btn btn-primary">Confirmar</button>
