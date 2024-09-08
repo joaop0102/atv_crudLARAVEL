@@ -48,8 +48,8 @@
 <div class="container">
     <h1>Detalhes do post</h1>
     @if($post)
-    <p><strong>Title:</strong> {{ $post->title }}</p>
-    <p><strong>Body:</strong> {{ $post->body }}</p>
+    <p><strong>Título:</strong> {{ $post->title }}</p>
+    <p><strong>Campo de texto:</strong> {{ $post->body }}</p>
     <a href="{{ route('posts.index') }}" class="btn btn-secondary">Voltar</a>
     @else
     <p>Post not found</p>
